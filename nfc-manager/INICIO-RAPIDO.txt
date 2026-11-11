@@ -1,0 +1,15 @@
+NFC MANAGER — INÍCIO RÁPIDO
+
+1) Abra a pasta nfc-manager no Claude/Antigravity ou VS Code.
+2) Leia o arquivo CLAUDE_CONTEXT.md e envie seu conteúdo ao Claude.
+3) O Claude deve auditar o projeto, instalar dependências e rodar npm run build.
+4) Crie um projeto no Supabase e execute supabase/schema.sql no SQL Editor.
+5) Crie o usuário administrador em Supabase > Authentication > Users.
+6) Copie .env.example para .env.local e preencha as credenciais do Supabase.
+7) Rode npm install e npm run dev.
+8) Configure NEXT_PUBLIC_SITE_URL com o domínio definitivo antes de gravar tags NFC ou imprimir QR Codes.
+
+REGRA CRÍTICA:
+Editar um cadastro jamais pode alterar o slug/link permanente. O link antigo precisa continuar abrindo e apresentar os dados atualizados. Não regravar NFC e não gerar novo QR Code em edições.
+
+Consulte README.md para o passo a passo completo e CLAUDE_CONTEXT.md para o prompt de continuidade.
